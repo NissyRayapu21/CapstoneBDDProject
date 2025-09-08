@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T17:24:37 IST" name="Functional" finished-at="2025-09-08T17:25:49 IST" duration-ms="71569">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@2a3b5b47]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-08T17:24:37 IST" name="FunctionalTestCases" finished-at="2025-09-08T17:25:49 IST" duration-ms="71569">
+      <class name="TestRunner.MyTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.MyTestRunner@2a3b5b47]" started-at="2025-09-08T17:24:37 IST" name="setUpClass" finished-at="2025-09-08T17:24:38 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@2a3b5b47]" started-at="2025-09-08T17:24:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T17:25:14 IST" duration-ms="35977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Form Submission"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[HealthCare Program HAging Form]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@2a3b5b47]" started-at="2025-09-08T17:25:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T17:25:24 IST" duration-ms="9306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[HomePage Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@2a3b5b47]" started-at="2025-09-08T17:25:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T17:25:33 IST" duration-ms="9810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[HomePage Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.MyTestRunner@2a3b5b47]" started-at="2025-09-08T17:25:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T17:25:44 IST" duration-ms="10397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["About page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[HomePage Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.MyTestRunner@2a3b5b47]" started-at="2025-09-08T17:25:44 IST" name="tearDownClass" finished-at="2025-09-08T17:25:49 IST" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.MyTestRunner -->
+    </test> <!-- FunctionalTestCases -->
+  </suite> <!-- Functional -->
+</testng-results>

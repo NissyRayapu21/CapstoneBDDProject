@@ -1,0 +1,548 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-09-08T11:54:38.979Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1881926700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Form Submission",
+        "description": "",
+        "id": "healthcare-program-haging-form;form-submission;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 233100000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5324282800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on programs",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_clicks_on_programs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1076954100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects on healthaging",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_selects_on_healthaging()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10894938700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on register here",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_clicks_on_register_here()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083553700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters firstname \"OMG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OMG\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_firstname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083248000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters lastname \"Jessy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jessy\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113597400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters phoneno \"9876543211\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876543211\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_phoneno(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083529600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters email \"jessy@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jessy@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1115187100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters programs \"\u003cprogram\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cprogram\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_programs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067732700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters country \"Escambia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Escambia\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_country(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1128316400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters format \"No preference\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No preference\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_format(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1215612100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters bestdescribed \"A community center, church, or other organization looking to host classes at my own site\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A community center, church, or other organization looking to host classes at my own site\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_bestdescribed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1084279800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters aboutus \"Social Media\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Social Media\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_aboutus(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097738500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters notify \"click\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"click\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_enters_notify(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4122141100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on submit \"\u003cSubmit\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cSubmit\u003e\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_clicks_on_submit(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040932500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user views message \"Success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.StepDefinitions.user_views_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "HealthCare Program HAging Form",
+    "description": "",
+    "id": "healthcare-program-haging-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/forms.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-09-08T11:55:14.811Z",
+        "before": [
+          {
+            "result": {
+              "duration": 839985500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home Page Validation",
+        "description": "",
+        "id": "homepage-validation;home-page-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 165576300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4648855200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1515289100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on quittobacco",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_clicks_on_quittobacco()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2048345900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigate and views title of page",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_is_navigate_and_views_title_of_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T11:55:24.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 653902000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search Functionality",
+        "description": "",
+        "id": "homepage-validation;search-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 161630400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5424962100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user on home page",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1081693100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters books in search bar",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_enters_books_in_search_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1446964800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on search button",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1032055800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is navigated to required page",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_is_navigated_to_required_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T11:55:33.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 759373000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "About page",
+        "description": "",
+        "id": "homepage-validation;about-page",
+        "after": [
+          {
+            "result": {
+              "duration": 173083000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6690437500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user on homepage",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1706940700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on aboutus",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_clicks_on_aboutus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1032163400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is navigated to about page",
+            "match": {
+              "location": "StepDefinitions.StepDefinitions.user_is_navigated_to_about_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage Validation",
+    "description": "",
+    "id": "homepage-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/homepage.feature",
+    "tags": []
+  }
+]
