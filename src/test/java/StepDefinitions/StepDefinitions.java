@@ -121,7 +121,7 @@ public void user_views_message(String SubmittedSuccessfully) throws InterruptedE
 public void user_is_on_home_page() throws InterruptedException {
 	driver.get("https://westfloridaahec.org/");
 	
-    Thread.sleep(1000);
+    Thread.sleep(2000);
 	
     
 }
@@ -130,42 +130,45 @@ public void user_is_on_home_page() throws InterruptedException {
 public void user_clicks_on_quittobacco() throws InterruptedException {
 	hp.clickQuitLink();
 
-    Thread.sleep(1000);
+    Thread.sleep(2000);
     
 }
 
 @Given("user is navigate and views title of page")
 public void user_is_navigate_and_views_title_of_page() throws InterruptedException {
    hp.QuitPageTitle(); 
-   Thread.sleep(2000);
+   Thread.sleep(3000);
    System.out.println("Title Displayed ");
 }
 
 @Given("user on home page")
 public void user_on_home_page() throws InterruptedException {
 	driver.get("https://westfloridaahec.org/");
-    Thread.sleep(1000);
+    Thread.sleep(2000);
    
 }
 
 @Given("user enters books in search bar")
 public void user_enters_books_in_search_bar() throws InterruptedException {
+	Thread.sleep(3000);
 	hp.clickBookSearch();
-	Thread.sleep(1000);
+	Thread.sleep(3000);
    
 }
 
 @Given("user click on search button")
 public void user_click_on_search_button() throws InterruptedException {
+	Thread.sleep(4000);
 	hp.SearchButton();
-	Thread.sleep(1000);
+	Thread.sleep(4000);
     
 }
 
 @Given("user is navigated to required page")
 public void user_is_navigated_to_required_page() throws InterruptedException {
+	Thread.sleep(4000);
 	hp.isBookPageDisplayed();
-	Thread.sleep(1000);
+	Thread.sleep(3000);
 	System.out.println("Books page displayed");
    
 }
@@ -173,19 +176,21 @@ public void user_is_navigated_to_required_page() throws InterruptedException {
 @Given("user on homepage")
 public void user_on_homepage() throws InterruptedException {
 	driver.get("https://westfloridaahec.org/");
-    Thread.sleep(1000);
+    Thread.sleep(2000);
     
 }
 
 @Given("user clicks on aboutus")
 public void user_clicks_on_aboutus() throws InterruptedException {
+	Thread.sleep(4000);
 	hp.clickAboutLink();
-	Thread.sleep(1000);
+	Thread.sleep(2000);
     
 }
 
 @Given("user is navigated to about page")
 public void user_is_navigated_to_about_page() throws InterruptedException {
+	Thread.sleep(3000);
 	hp.isAboutPageDisplayed();
 	Thread.sleep(1000);
 	System.out.println("Navigated to aboutus page");
