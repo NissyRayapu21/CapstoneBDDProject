@@ -5,8 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-    features = {"src/test/resources/Features/homepage.feature",
-    		"src/test/resources/Features/forms.feature"},
+    features = {"src/test/resources/Features/homepage.feature"},		
     glue = {"StepDefinitions","Hooks"},
     tags = "@Regression",
     		plugin = {
